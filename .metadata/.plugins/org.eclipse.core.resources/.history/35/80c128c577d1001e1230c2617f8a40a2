@@ -1,0 +1,11 @@
+package poo;
+
+public class ProgramaPrincipal {
+
+	public static void main(String[] args) {
+		Circulo c1 = new Circulo();
+		System.out.println(c1.getArea());
+		Rectangulo r1 = new Rectangulo();
+	}
+
+}

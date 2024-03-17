@@ -1,0 +1,12 @@
+package deustoTrain;
+
+import java.util.ArrayList;
+
+public class Estacion {
+	protected String nombre;
+	protected double latitud;
+	protected double longitud;
+	protected boolean cafeteria;
+	protected ArrayList<Pasajero> pasajeros;
+	
+}

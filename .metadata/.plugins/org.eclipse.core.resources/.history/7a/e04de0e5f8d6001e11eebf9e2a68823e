@@ -1,0 +1,32 @@
+package equipos;
+
+import java.util.ArrayList;
+
+public class Equipo {
+	protected Empleado jefe;
+	protected ArrayList<Desarrollador> desarrolladores;
+	protected ArrayList<Disenador> disenador;
+	
+	public Equipo(Empleado jefe, ArrayList<Desarrollador> desarrolladores, ArrayList<Disenador> disenador) {
+		super();
+		this.jefe = jefe;
+		this.desarrolladores = new ArrayList<Desarrollador>(desarrolladores);
+		this.disenador = new ArrayList<Disenador>(disenador);
+	}
+	
+	public Equipo() {
+		super();
+		this.jefe = null;
+		this.desarrolladores = new ArrayList<Desarrollador>();
+		this.disenador = new ArrayList<Disenador>();
+	}
+	
+	public Equipo(Equipo e) {
+		super();
+		this.jefe = e.jefe;
+		this.desarrolladores = new ArrayList<Desarrollador>();
+		this.disenador = new ArrayList<Disenador>();
+	}
+	
+	
+}

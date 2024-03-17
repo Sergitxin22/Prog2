@@ -1,0 +1,9 @@
+package poo;
+
+public class ProgramaPrincipal {
+
+	public static void main(String[] args) {
+		Circulo c1 = new Circulo();
+	}
+
+}

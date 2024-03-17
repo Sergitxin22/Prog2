@@ -1,0 +1,10 @@
+package deustoTrain;
+
+public class DeustoTrain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

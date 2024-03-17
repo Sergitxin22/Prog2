@@ -1,0 +1,6 @@
+package deustoTrain;
+
+public interface Reservable {
+	boolean reservar(Pasajero pasajero);
+	boolean anular(Pasajero pasajero);
+}

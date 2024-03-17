@@ -1,0 +1,12 @@
+package deustoTrain;
+
+import java.util.ArrayList;
+
+public class DeustoTrain {
+
+	public static void main(String[] args) {
+		ArrayList<Trayecto> trayectos;
+
+	}
+
+}

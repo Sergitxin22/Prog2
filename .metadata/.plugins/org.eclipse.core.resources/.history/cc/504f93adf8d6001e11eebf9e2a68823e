@@ -1,0 +1,9 @@
+package equipos;
+
+import java.util.ArrayList;
+
+public class Equipo {
+	protected Empleado jefe;
+	protected ArrayList<Desarrollador> desarrolladores;
+	protected ArrayList<Disenador> disenador;
+}

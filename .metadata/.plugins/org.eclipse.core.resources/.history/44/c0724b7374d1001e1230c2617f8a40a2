@@ -1,0 +1,13 @@
+package poo;
+
+public class Rectangulo {
+	private double altura;
+	private double base;
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

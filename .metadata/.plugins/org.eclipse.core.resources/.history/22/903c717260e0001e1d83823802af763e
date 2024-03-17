@@ -1,0 +1,40 @@
+package grado;
+
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Grado informatica = new Grado();
+		
+		informatica.setNombre("Ingeniería en Informática");
+		
+		ArrayList<Estudiante> estudiantesInfor = new ArrayList<Estudiante>();
+		
+		for (int i = 0; i < 100; i++) {
+			ArrayList<Asignatura> asignaturas = new ArrayList<Asignatura>();
+			int curso = (int) (Math.random() * 4) + 1;
+			int n = (int) (Math.random() * 5) + 8;
+			
+			for (int j = 0; j < n; j++) {
+				Asignatura nueva = new Asignatura("asignatura-"+j, curso+j, curso, 6, LocalDateTime.now();
+				asignaturas.add(nueva);
+			}
+					
+			Estudiante nuevo = new Estudiante("estudiante-"+i, "123456"+i, curso, 
+					new ArrayList<Asignatura>());
+			
+			estudiantesInfor.add(nuevo);
+		}
+		
+		informatica.setEstudiantes(estudiantesInfor);
+		
+		System.out.println(informatica);
+		informatica.ordenar();		
+		System.out.println(informatica);
+
+	}
+
+}

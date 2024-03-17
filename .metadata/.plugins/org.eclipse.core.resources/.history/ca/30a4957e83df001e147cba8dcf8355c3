@@ -1,0 +1,11 @@
+package grado;
+
+import java.time.LocalDateTime;
+
+public class Asignatura {
+	protected String nombre;
+	protected int codigo;
+	protected int curso;
+	protected double creditos;
+	protected LocalDateTime fecha;
+}

@@ -1,0 +1,8 @@
+package deustoTrain;
+
+public class Trayecto {
+	protected String nombre;
+	protected double latitud;
+	protected double longitud;
+	protected boolean cafeteria;
+}
