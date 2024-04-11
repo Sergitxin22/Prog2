@@ -1,9 +1,0 @@
-package deustoTrain;
-
-public class Tren {
-	private static int contador = 1;
-	
-	protected int cv;
-	protected String modelo;
-	protected int codigo;
-}

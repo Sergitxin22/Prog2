@@ -1,6 +1,0 @@
-package deustoTrain;
-
-public class RutaMercancias extends Ruta {
-	protected double cargaMaxima;
-
-}

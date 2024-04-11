@@ -1,9 +1,0 @@
-package deustoTrain;
-
-public class Estacion {
-	protected String nombre;
-	protected double latitud;
-	protected double longitud;
-	protected boolean cafeteria;
-	
-}

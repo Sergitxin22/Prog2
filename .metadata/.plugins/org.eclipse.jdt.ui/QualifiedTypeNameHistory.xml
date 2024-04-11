@@ -21,12 +21,18 @@
     <fullyQualifiedTypeName name="restaurante.PlatoCarta"/>
     <fullyQualifiedTypeName name="restaurante.TipoCarta"/>
     <fullyQualifiedTypeName name="restaurante.Cobrable"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="grado.Grado"/>
     <fullyQualifiedTypeName name="grado.Estudiante"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="grado.Asignatura"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="deustoTrain.Reservable"/>
+    <fullyQualifiedTypeName name="deustotravel.Transporte"/>
+    <fullyQualifiedTypeName name="deustotravel.Guia"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="deustotravel.Trayecto"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="deustotravel.Avioneta"/>
+    <fullyQualifiedTypeName name="deustotravel.Barco"/>
 </qualifiedTypeNameHistroy>

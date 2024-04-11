@@ -1,8 +1,0 @@
-package deustoTrain;
-
-import java.util.ArrayList;
-
-public class RutaMercancias extends Ruta {
-	protected double cargaMaxima;
-
-}
