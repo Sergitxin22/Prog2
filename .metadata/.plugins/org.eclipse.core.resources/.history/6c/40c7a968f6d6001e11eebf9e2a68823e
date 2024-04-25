@@ -1,7 +1,0 @@
-package equipos;
-
-import java.util.ArrayList;
-
-public class Desarrollador extends Empleado {
-	protected ArrayList<String> lenguajes;
-}

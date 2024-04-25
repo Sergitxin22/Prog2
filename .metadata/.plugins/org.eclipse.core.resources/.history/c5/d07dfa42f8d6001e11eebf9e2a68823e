@@ -1,6 +1,0 @@
-package equipos;
-
-public class Equipo {
-	protected Empleado jefe;
-
-}
