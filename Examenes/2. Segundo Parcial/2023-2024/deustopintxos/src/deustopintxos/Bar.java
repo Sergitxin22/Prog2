@@ -70,7 +70,6 @@ public class Bar {
 	public void cobrarPedidos() {
 		while (!pedidos.isEmpty()) {
 			Pedido p = pedidos.removeFirst();
-			p.totalPedido();
 			Dia d = p.getDia();
 			double totalPedido = p.totalPedido();
 			
