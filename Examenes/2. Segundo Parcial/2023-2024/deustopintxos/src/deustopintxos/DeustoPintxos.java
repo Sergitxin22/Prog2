@@ -93,7 +93,7 @@ public class DeustoPintxos {
 	}
 	
 	// TAREA 2D: diaMayorRecaudacion
-	private static String diaMayorRecaudacion(List<Bar> bares) {
+	private static Dia diaMayorRecaudacion(List<Bar> bares) {
 		TreeMap<Dia, Double> totalRecaudacionDia = new TreeMap<Dia, Double>();
 		double mayorRecaudacion = 0.0;
 		Dia diaMayorRecaudacion = Dia.LUNES;
@@ -120,7 +120,7 @@ public class DeustoPintxos {
 			}
 		}
 		
-		return String.valueOf(diaMayorRecaudacion);
+		return diaMayorRecaudacion;
 	}
 	
 	public static void main(String[] args) {
