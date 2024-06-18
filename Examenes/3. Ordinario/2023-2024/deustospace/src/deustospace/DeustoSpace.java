@@ -3,6 +3,7 @@ package deustospace;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.Serializable;
+import java.time.DateTimeException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -152,22 +153,25 @@ public class DeustoSpace implements Serializable {
 					
 					Nave nave = new Nave(nombreNave, proveedor, coste, carga);
 					
-					// this.nave = null;
-					// this.personal = new ArrayList<Personal>();
+					// m.nave = null;
+					// m.personal = new ArrayList<Personal>();
 					Mision m = new Mision(nombre, lugar, destino, anyo, mes, dia);
 					m.setNave(nave);
+					
 					this.misiones.add(m);
 				} catch (IndexOutOfBoundsException ex) {
-					//System.err.println("faltan datos");
+					System.err.println("Faltan datos");
 				} catch (NumberFormatException ex) {
-					//System.err.println("un dato entero o real es erroneo");
-				}
-				
+					System.err.println("Un dato entero o real es erroneo");
+				} catch (DateTimeException ex) {
+					System.err.println("Una fecha es erronea");
+				} catch (Exception ex) {
+					System.err.println("Ha ocurrido un error desconocido");
+				}				
 			}
 			sc.close();
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.err.println("No se encuentra el archivo especificado");
 		}
 	}
 
