@@ -279,8 +279,6 @@ public class DeustoSpace implements Serializable {
 	}
 	
 	// TAREA 3A: costesPorPais
-	// public ... costesPorPais() {
-	// TODO tarea 3a
 	public void costesPorPais() {
 		HashMap<String, Double> costePorPais = new HashMap<>();
 		
@@ -288,15 +286,20 @@ public class DeustoSpace implements Serializable {
 			String pais = mision.getLugar();
 			
 			// Calculo el coste del personal
-			double costeMision = mision.getCosteTotal();
+			double costePersonal = 0;
 			double costeNave = 0;
+			
+			for (Personal persona : this.personal) {
+				double coste = persona.getCoste();
+				costePersonal += coste;
+			}
 			
 			// Sumo valor totalMision
 			if (!costePorPais.containsKey(pais)) {
-				costePorPais.put(pais, costeMision);
+				costePorPais.put(pais, costePersonal);
 			} else {
 				double valorAnterior = costePorPais.get(pais);
-				costePorPais.put(pais, costeMision+valorAnterior);
+				costePorPais.put(pais, costePersonal+valorAnterior);
 			}
 			
 			// Elijo el pais de la nave
@@ -315,8 +318,7 @@ public class DeustoSpace implements Serializable {
 			} else {
 				double valorAnterior = costePorPais.get(pais);
 				costePorPais.put(pais, precioNave+valorAnterior);
-			}
-			
+			}			
 		}
 	}
 	
