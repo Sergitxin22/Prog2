@@ -58,7 +58,7 @@ public class Astronauta extends Personal implements Subvencionable {
 	// TAREA 2B: getCoste
 	@Override
 	double getCoste() {
-		int coste = (int) (0.25*this.getHabilidades().size());
+		double coste = 0.25*this.getHabilidades().size();
 		if (this.esSubvencionable()) {
 			double reduccion = this.getPorcentaje()*coste/100;
 			return coste - reduccion;
