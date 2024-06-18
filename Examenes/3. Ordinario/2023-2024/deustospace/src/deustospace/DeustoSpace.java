@@ -11,6 +11,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Objects;
 import java.util.Scanner;
+import java.util.TreeMap;
 
 /** Clase de agencia espacial, contenedora de datos
  */
@@ -160,13 +161,13 @@ public class DeustoSpace implements Serializable {
 					
 					this.misiones.add(m);
 				} catch (IndexOutOfBoundsException ex) {
-					System.err.println("Faltan datos");
+					//System.err.println("Faltan datos");
 				} catch (NumberFormatException ex) {
-					System.err.println("Un dato entero o real es erroneo");
+					//System.err.println("Un dato entero o real es erroneo");
 				} catch (DateTimeException ex) {
-					System.err.println("Una fecha es erronea");
+					//System.err.println("Una fecha es erronea");
 				} catch (Exception ex) {
-					System.err.println("Ha ocurrido un error desconocido");
+					//System.err.println("Ha ocurrido un error desconocido");
 				}				
 			}
 			sc.close();
@@ -324,7 +325,7 @@ public class DeustoSpace implements Serializable {
 	
 	// TAREA 3B: destinosPorCoste
 	public void destinosPorCoste() {
-		HashMap<String, ArrayList<Mision>> misionesPorDestino = new HashMap<>();
+		TreeMap<String, ArrayList<Mision>> misionesPorDestino = new TreeMap<>();
 		
 		// Creo el mapa
 		for (Mision mision : misiones) {
