@@ -37,12 +37,20 @@ class MisionTest {
 		assertEquals(0, m1.getPersonal().size());
 		assertEquals(0, m1.getNave().getCoste());
 		
+		// costeInicial + costePersonal + costeNave
+		//     1.5		+       0		+     0		= 1.5
+		assertEquals(1.5, m1.getCosteTotal());
+		
 		// Segundo caso
 		Mision m2 = new Mision("mision2", "madrid", "marte", 2024, 2, 20);
 		Nave n2 = new Nave("nave2", "proveedor1", 5, 5);
 		m2.setNave(n2);
 		assertEquals(0, m2.getPersonal().size());
 		assertEquals(5, m2.getNave().getCoste());
+		
+		// costeInicial + costePersonal + costeNave
+		//     1.5		+       0		+     5		= 6.5
+		assertEquals(6.5, m2.getCosteTotal());
 		
 		// Tercer caso
 		Mision m3 = new Mision("mision3", "madrid", "marte", 2024, 2, 20);
@@ -54,6 +62,11 @@ class MisionTest {
 		m3.setPersonal(p1);
 		assertEquals(1, m3.getPersonal().size());
 		assertEquals(0, (((Astronauta) m3.getPersonal().get(0)).getHabilidades()).size());
+		
+		// costeInicial + costePersonal + costeNave
+		//     1.5		+   0.25*0=0	+     5		= 6.5
+		assertEquals(6.5, m3.getCosteTotal());
+		//System.out.println(m3.getCosteTotal());
 		
 		// Cuarto caso
 		Mision m4 = new Mision("mision4", "madrid", "marte", 2024, 2, 20);
@@ -69,10 +82,15 @@ class MisionTest {
 		m4.setPersonal(p2);
 		assertEquals(1, m4.getPersonal().size());
 		assertEquals(2, (((Astronauta) m4.getPersonal().get(0)).getHabilidades()).size());
+		// costePersonal = 0.25*2*0.1
+		// costeInicial + costePersonal + costeNave
+		//     1.5		+     0.05		+     5		= 6.55
+		assertEquals(6.55, m4.getCosteTotal());
 		
-		// Cuarto caso
+		// Quinto caso
 		Mision m5 = new Mision("mision5", "madrid", "marte", 2024, 2, 20);
-
+		m5.setNave(n2);
+		
 		Tierra t1 = new Tierra("sergio", "hola", 1);
 		Tierra t2 = new Tierra("ser", "la", 2);
 		p2.add(t1);
@@ -81,6 +99,11 @@ class MisionTest {
 		assertEquals(3, m5.getPersonal().size());
 		assertEquals(1, (((Tierra) m5.getPersonal().get(1)).getNivel()));
 		assertEquals(2, (((Tierra) m5.getPersonal().get(2)).getNivel()));
+		
+		// costePersonal = (0.25*2*0.1) + (0.15*1) + (0.15*2)
+		// costeInicial + costePersonal + costeNave
+		//     1.5		+     0.5		+     5		= 7
+		assertEquals(7, m5.getCosteTotal());
 	}
 
 }
