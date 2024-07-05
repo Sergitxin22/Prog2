@@ -1,0 +1,300 @@
+MISION	DS I	Florida USA	ISS	20167
+NAVE	Falcon 9	SpaceX	67.0	22000.0
+TIERRA	Ana García	France	5
+TIERRA	Laura Becker	Germany	3
+TIERRA	Ana García	Belgium	1
+TIERRA	John Ors	UK	1
+TIERRA	Ana García	Belgium	1
+TIERRA	Andrea Ors	UK	2
+TIERRA	Ana Johnson	UK	5
+TIERRA	Ana García	Spain	2
+TIERRA	Ana García	UK	2
+TIERRA	Ana Bocelli	Spain	5
+ASTRONAUTA	Sara García Alonso	Spain	PILOTAR,INVESTIGACION
+ASTRONAUTA	Pablo Álvarez Fernández	Spain	INVESTIGACION,PILOTAR,MEDICINA
+ASTRONAUTA	Marcus Wandt	Sweden	INVESTIGACION,INGENIERIA,PILOTAR
+ESPECIALISTA	Friedrich Schmidt	Germany	Ingeniería Aeroespacial	70
+ESPECIALISTA	Maja Eriksson	Sweden	Matemáticas	85
+ESPECIALISTA	Élise Moreau	France	Meteorología	20
+ESPECIALISTA	Lina Svensson	Sweden	Matemáticas	58
+ESPECIALISTA	Marie Dubois	France	Electrónica	54
+MISION	DS II	Florida USA	ISS	20290
+NAVE	Falcon 9	SpaceX	67.0	22000.0
+TIERRA	Mark Becker	Spain	1
+TIERRA	Ana Ors	Germany	5
+TIERRA	Mark Ors	Germany	3
+TIERRA	Mark Bocelli	Spain	2
+TIERRA	Ana García	Spain	2
+TIERRA	Laura Becker	Spain	3
+TIERRA	Andrea Johnson	Spain	1
+TIERRA	Mark Ors	Germany	3
+TIERRA	Laura Becker	Germany	3
+TIERRA	Ana García	Spain	3
+ASTRONAUTA	Nicola Winter	Germany	PILOTAR,INGENIERIA
+ASTRONAUTA	Raphaël Liégeois	Belgium	INVESTIGACION,MEDICINA
+ASTRONAUTA	Amelie Schoenenwald	Germany	MEDICINA
+ESPECIALISTA	Giulia Rossi	Italy	Física	75
+ESPECIALISTA	João Pereira	Portugal	Geología	47
+ESPECIALISTA	Gábor Nagy	Hungary	Robótica	50
+ESPECIALISTA	Marco Moretti	Italy	Física	65
+ESPECIALISTA	Eleni Kosta	Greece	Biología	95
+MISION	DS III	Guayana Francesa	Luna	20496
+NAVE	Ariane 5	Arianespace	178.0	21000.0
+TIERRA	Ana Ors	Germany	5
+TIERRA	Andrea Bocelli	Germany	3
+TIERRA	Andrea Johnson	UK	1
+TIERRA	Laura Becker	Germany	3
+TIERRA	Ana Johnson	UK	5
+TIERRA	Andrea Bocelli	Germany	3
+TIERRA	Laura Johnson	Spain	2
+TIERRA	Mark Bocelli	UK	2
+TIERRA	John Becker	Spain	2
+TIERRA	Ana Johnson	Belgium	5
+ASTRONAUTA	Nicola Winter	Germany	PILOTAR,INGENIERIA
+ASTRONAUTA	Sławosz Uznański	Poland	MEDICINA,PILOTAR
+ASTRONAUTA	Andrea Patassa	Italy	MEDICINA,INVESTIGACION
+ESPECIALISTA	Hans Müller	Germany	Ingeniería Aeroespacial	80
+ESPECIALISTA	Elena Ivanova	Bulgaria	Meteorología	61
+ESPECIALISTA	Balázs Szabó	Hungary	Robótica	72
+ESPECIALISTA	Friedrich Schmidt	Germany	Ingeniería Aeroespacial	70
+ESPECIALISTA	Claude Lefevre	France	Electrónica	45
+MISION	DS IV	Houston USA	ISS	20526
+NAVE	Falcon 9	SpaceX	67.0	22000.0
+TIERRA	Andrea Johnson	Spain	1
+TIERRA	Ana García	Germany	3
+TIERRA	Ana García	UK	2
+TIERRA	Mark Ors	Spain	3
+TIERRA	Laura Johnson	UK	2
+TIERRA	Mark Bocelli	UK	2
+TIERRA	Ana García	UK	1
+TIERRA	Ana García	Belgium	1
+TIERRA	Andrea Becker	Spain	4
+TIERRA	Andrea Johnson	Belgium	1
+ASTRONAUTA	Nicola Winter	Germany	PILOTAR,INGENIERIA
+ASTRONAUTA	Andrea Patassa	Italy	MEDICINA,INVESTIGACION
+ASTRONAUTA	Raphaël Liégeois	Belgium	INVESTIGACION,MEDICINA
+ESPECIALISTA	Giulia Rossi	Italy	Física	75
+ESPECIALISTA	Alexandros Vasilis	Greece	Biología	95
+ESPECIALISTA	Ole Hansen	Denmark	Ingeniería Mecánica	25
+ESPECIALISTA	Jan Kowalczyk	Poland	Química	55
+ESPECIALISTA	Linnea Lund	Sweden	Matemáticas	85
+MISION	DS V	Guayana Francesa	Luna	20861
+NAVE	Ariane 5	Arianespace	178.0	21000.0
+TIERRA	John Bocelli	Spain	4
+TIERRA	Andrea Ors	Spain	2
+TIERRA	Mark Bocelli	Spain	2
+TIERRA	Ana Bocelli	Spain	5
+TIERRA	Laura Becker	Germany	3
+TIERRA	Laura Ors	Spain	4
+TIERRA	Andrea Becker	UK	4
+TIERRA	Ana Ors	Belgium	5
+TIERRA	Ana Ors	France	5
+TIERRA	Andrea Bocelli	Germany	3
+ASTRONAUTA	Anthea Comellini	Italy	MEDICINA,PILOTAR
+ASTRONAUTA	Rosemary Coogan	UK	PILOTAR,INVESTIGACION,MEDICINA
+ASTRONAUTA	Raphaël Liégeois	Belgium	INVESTIGACION,MEDICINA
+ESPECIALISTA	Alexandros Vasilis	Greece	Biología	95
+ESPECIALISTA	Isabelle Dupont	Belgium	Astronomía	65
+ESPECIALISTA	Francesco Ricci	Italy	Física	65
+ESPECIALISTA	Luca Bianchi	Italy	Física	84
+ESPECIALISTA	Bastian Lambert	France	Electrónica	64
+MISION	DS VI	Baikonur	ISS	20888
+NAVE	Soyuz	Roscosmos	38.0	7020.0
+TIERRA	Andrea Johnson	UK	1
+TIERRA	Ana Ors	Germany	5
+TIERRA	John Becker	UK	2
+TIERRA	Andrea Becker	Spain	4
+TIERRA	John Johnson	Germany	3
+TIERRA	Ana Johnson	UK	5
+TIERRA	Ana Johnson	Spain	5
+TIERRA	Ana García	France	1
+TIERRA	Ana García	Belgium	1
+TIERRA	Andrea Johnson	Belgium	1
+ASTRONAUTA	Marco Sieber	Switzerland	INGENIERIA,MEDICINA,PILOTAR
+ASTRONAUTA	Pablo Álvarez Fernández	Spain	INVESTIGACION,PILOTAR,MEDICINA
+ASTRONAUTA	Nicola Winter	Germany	PILOTAR,INGENIERIA
+ESPECIALISTA	Zofia Mazur	Poland	Química	55
+ESPECIALISTA	Niels Sørensen	Denmark	Ingeniería Mecánica	25
+ESPECIALISTA	Leire Aguirre	Spain	Informática	62
+ESPECIALISTA	Maja Eriksson	Sweden	Matemáticas	85
+ESPECIALISTA	Ole Hansen	Denmark	Ingeniería Mecánica	25
+MISION	DS VII	Guayana Francesa	ISS	20902
+NAVE	Falcon 9	SpaceX	67.0	22000.0
+TIERRA	Ana García	Spain	4
+TIERRA	Ana Bocelli	Italy	5
+TIERRA	Ana Johnson	Spain	5
+TIERRA	John Becker	Italy	2
+TIERRA	Ana García	UK	2
+TIERRA	Mark Bocelli	Italy	2
+TIERRA	Ana Becker	Spain	5
+TIERRA	Laura Ors	Spain	4
+TIERRA	Andrea Bocelli	Spain	3
+TIERRA	Andrea Johnson	Belgium	1
+ASTRONAUTA	Sara García Alonso	Spain	PILOTAR,INVESTIGACION
+ASTRONAUTA	Marco Sieber	Switzerland	INGENIERIA,MEDICINA,PILOTAR
+ASTRONAUTA	Amelie Schoenenwald	Germany	MEDICINA
+ESPECIALISTA	Manuel Ortega	Spain	Geología	30
+ESPECIALISTA	Gábor Nagy	Hungary	Robótica	50
+ESPECIALISTA	Francesco Ricci	Italy	Física	65
+ESPECIALISTA	Luca Bianchi	Italy	Física	84
+ESPECIALISTA	João Pereira	Portugal	Geología	47
+MISION	DS VIII	Guayana Francesa	ISS	21228
+NAVE	Soyuz	Arianespace	47.0	7020.0
+TIERRA	Laura Johnson	UK	2
+TIERRA	Laura Ors	Italy	4
+TIERRA	Ana Bocelli	Belgium	5
+TIERRA	Ana Bocelli	Germany	5
+TIERRA	Andrea Ors	Spain	2
+TIERRA	Ana Bocelli	Spain	5
+TIERRA	Laura Bocelli	UK	1
+TIERRA	Andrea Ors	Italy	2
+TIERRA	Mark Johnson	UK	4
+TIERRA	Mark Johnson	UK	4
+ASTRONAUTA	Pablo Álvarez Fernández	Spain	INVESTIGACION,PILOTAR,MEDICINA
+ASTRONAUTA	Aleš Svoboda	Czech Republic	PILOTAR,MEDICINA
+ASTRONAUTA	Marcus Wandt	Sweden	INVESTIGACION,INGENIERIA,PILOTAR
+ESPECIALISTA	Giulia Rossi	Italy	Física	75
+ESPECIALISTA	Klaus Becker	Germany	Ingeniería Aeroespacial	75
+ESPECIALISTA	Claude Lefevre	France	Electrónica	45
+ESPECIALISTA	Jan Kowalczyk	Poland	Química	55
+ESPECIALISTA	Charlotte Dubois	Belgium	Astronomía	40
+MISION	DS IX	Houston USA	Luna	21700
+NAVE	Falcon 9	SpaceX	67.0	22000.0
+TIERRA	Andrea Johnson	UK	1
+TIERRA	Ana García	Spain	3
+TIERRA	Mark Becker	Spain	1
+TIERRA	Ana Johnson	France	5
+TIERRA	John Ors	UK	1
+TIERRA	Mark Bocelli	Italy	2
+TIERRA	Andrea Ors	Italy	2
+TIERRA	Laura Bocelli	France	1
+TIERRA	Andrea Becker	Italy	4
+TIERRA	Ana García	Spain	3
+ASTRONAUTA	Rosemary Coogan	UK	PILOTAR,INVESTIGACION,MEDICINA
+ASTRONAUTA	Carmen Possnig	Austria	INVESTIGACION,MEDICINA
+ASTRONAUTA	Sophie Adenot	France	PILOTAR,INGENIERIA
+ESPECIALISTA	João Pereira	Portugal	Geología	47
+ESPECIALISTA	Klaus Becker	Germany	Ingeniería Aeroespacial	75
+ESPECIALISTA	Giulia Rossi	Italy	Física	75
+ESPECIALISTA	Anders Nielsen	Denmark	Ingeniería Mecánica	61
+ESPECIALISTA	Ursula Fischer	Germany	Ingeniería Aeroespacial	75
+MISION	DS X	Guayana Francesa	Marte	21865
+NAVE	Ariane 5	Arianespace	178.0	21000.0
+TIERRA	Ana Bocelli	UK	5
+TIERRA	Andrea Ors	UK	2
+TIERRA	John Johnson	Spain	3
+TIERRA	Ana Ors	Italy	5
+TIERRA	Mark Bocelli	Italy	2
+TIERRA	John Bocelli	Italy	4
+TIERRA	Andrea Bocelli	Germany	3
+TIERRA	Andrea Becker	Italy	4
+TIERRA	Ana Bocelli	Italy	5
+TIERRA	Andrea Bocelli	Germany	3
+ASTRONAUTA	Rosemary Coogan	UK	PILOTAR,INVESTIGACION,MEDICINA
+ASTRONAUTA	Sławosz Uznański	Poland	MEDICINA,PILOTAR
+ASTRONAUTA	Pablo Álvarez Fernández	Spain	INVESTIGACION,PILOTAR,MEDICINA
+ESPECIALISTA	Bastian Lambert	France	Electrónica	64
+ESPECIALISTA	Giulia Rossi	Italy	Física	75
+ESPECIALISTA	Nikos Papadopoulos	Greece	Biología	61
+ESPECIALISTA	Irene Sánchez	Spain	Informática	35
+ESPECIALISTA	Ursula Fischer	Germany	Ingeniería Aeroespacial	75
+MISION	DS XI	Florida USA	ISS	22020
+NAVE	Falcon 9	SpaceX	67.0	22000.0
+TIERRA	John Becker	Spain	2
+TIERRA	Mark Johnson	Italy	4
+TIERRA	John Becker	UK	2
+TIERRA	Ana Becker	UK	5
+TIERRA	Andrea Becker	Italy	4
+TIERRA	Mark Bocelli	Spain	2
+TIERRA	Ana García	UK	4
+TIERRA	Ana Johnson	UK	5
+TIERRA	Ana Johnson	Spain	5
+TIERRA	Ana García	Spain	4
+ASTRONAUTA	Anthea Comellini	Italy	MEDICINA,PILOTAR
+ASTRONAUTA	Sara García Alonso	Spain	PILOTAR,INVESTIGACION
+ASTRONAUTA	Sophie Adenot	France	PILOTAR,INGENIERIA
+ESPECIALISTA	Linnea Lund	Sweden	Matemáticas	85
+ESPECIALISTA	Francesco Ricci	Italy	Física	65
+ESPECIALISTA	Sophie Leclerc	Belgium	Astronomía	50
+ESPECIALISTA	Lucie Petit	Belgium	Astronomía	40
+ESPECIALISTA	Jan Kowalczyk	Poland	Química	55
+MISION	DS XII	Baikonur	ISS	22085
+NAVE	Soyuz	Roscosmos	38.0	7020.0
+TIERRA	Andrea Johnson	Belgium	1
+TIERRA	Andrea Bocelli	Germany	3
+TIERRA	Ana García	Belgium	5
+TIERRA	Ana García	Germany	3
+TIERRA	John Becker	UK	2
+TIERRA	Laura Bocelli	France	1
+TIERRA	Laura Ors	Spain	4
+TIERRA	Ana García	UK	2
+TIERRA	John Becker	Spain	2
+TIERRA	John Johnson	Spain	3
+ASTRONAUTA	Pablo Álvarez Fernández	Spain	INVESTIGACION,PILOTAR,MEDICINA
+ASTRONAUTA	Arnaud Prost	France	INVESTIGACION,INGENIERIA
+ASTRONAUTA	Raphaël Liégeois	Belgium	INVESTIGACION,MEDICINA
+ESPECIALISTA	Hans Müller	Germany	Ingeniería Aeroespacial	80
+ESPECIALISTA	Marco Moretti	Italy	Física	65
+ESPECIALISTA	Zofia Mazur	Poland	Química	55
+ESPECIALISTA	Manuel Ortega	Spain	Geología	30
+ESPECIALISTA	Luca Bianchi	Italy	Física	84
+MISION	DS XIII	Guayana Francesa	Marte	22107
+NAVE	Ariane 5	Arianespace	178.0	21000.0
+TIERRA	Mark Ors	Spain	3
+TIERRA	Ana Becker	Spain	5
+TIERRA	Mark Ors	Germany	3
+TIERRA	Mark Becker	Italy	1
+TIERRA	Ana Johnson	Spain	5
+TIERRA	Andrea Johnson	UK	1
+TIERRA	Mark Johnson	Spain	4
+TIERRA	John Bocelli	Italy	4
+TIERRA	Ana Bocelli	France	5
+TIERRA	Laura Ors	UK	4
+ASTRONAUTA	Marco Sieber	Switzerland	INGENIERIA,MEDICINA,PILOTAR
+ASTRONAUTA	Amelie Schoenenwald	Germany	MEDICINA
+ASTRONAUTA	Meganne Christian	UK	PILOTAR,INGENIERIA
+ESPECIALISTA	Anders Nielsen	Denmark	Ingeniería Mecánica	61
+ESPECIALISTA	Emma Jensen	Denmark	Ingeniería Mecánica	72
+ESPECIALISTA	Sophie Leclerc	Belgium	Astronomía	50
+ESPECIALISTA	Klaus Becker	Germany	Ingeniería Aeroespacial	75
+ESPECIALISTA	Balázs Szabó	Hungary	Robótica	72
+MISION	DS XIV	Florida USA	Luna	22380
+NAVE	Falcon 9	SpaceX	67.0	22000.0
+TIERRA	John Ors	France	1
+TIERRA	Ana García	Germany	3
+TIERRA	John Bocelli	UK	4
+TIERRA	Andrea Ors	UK	2
+TIERRA	Mark Ors	Spain	3
+TIERRA	Ana Johnson	France	5
+TIERRA	John Bocelli	Italy	4
+TIERRA	Ana Becker	Germany	5
+TIERRA	John Johnson	Spain	3
+TIERRA	Laura Ors	Italy	4
+ASTRONAUTA	Anthea Comellini	Italy	MEDICINA,PILOTAR
+ASTRONAUTA	Andrea Patassa	Italy	MEDICINA,INVESTIGACION
+ASTRONAUTA	John McFall	UK	INVESTIGACION,INGENIERIA,MEDICINA
+ESPECIALISTA	Sofia Johansson	Sweden	Matemáticas	43
+ESPECIALISTA	Lucie Petit	Belgium	Astronomía	40
+ESPECIALISTA	Maja Eriksson	Sweden	Matemáticas	85
+ESPECIALISTA	Claude Lefevre	France	Electrónica	45
+ESPECIALISTA	Giulia Rossi	Italy	Física	75
+MISION	DS XV	Baikonur	ISS	22467
+NAVE	Soyuz	Roscosmos	38.0	7020.0
+TIERRA	Ana García	Spain	5
+TIERRA	Laura Bocelli	Germany	1
+TIERRA	Andrea Ors	UK	2
+TIERRA	Mark Bocelli	Spain	2
+TIERRA	John Becker	Italy	2
+TIERRA	Ana García	UK	2
+TIERRA	Andrea Becker	Spain	4
+TIERRA	Mark Becker	Italy	1
+TIERRA	Andrea Bocelli	Germany	3
+TIERRA	Ana García	Spain	3
+ASTRONAUTA	Sławosz Uznański	Poland	MEDICINA,PILOTAR
+ASTRONAUTA	Raphaël Liégeois	Belgium	INVESTIGACION,MEDICINA
+ASTRONAUTA	Arnaud Prost	France	INVESTIGACION,INGENIERIA
+ESPECIALISTA	Charlotte Dubois	Belgium	Astronomía	40
+ESPECIALISTA	Niels Sørensen	Denmark	Ingeniería Mecánica	25
+ESPECIALISTA	Linnea Lund	Sweden	Matemáticas	85
+ESPECIALISTA	Tamás Kovács	Hungary	Robótica	50
+ESPECIALISTA	Gábor Nagy	Hungary	Robótica	50
